@@ -1,31 +1,31 @@
 #box{
     
-    width: 200px;
-    height:250px;
+    width: 170px;
+    margin-top: 10%;
+    height:150px;
     margin-left: 35%;
     box-shadow: 0 0 10px 10px #efebeb ;
     border-radius: 8px;
     
 }
 H2{
-    margin-left: 20%;
-    position: relative;
-    top: 2px;
-    width: 190px;
     
+    margin-left: 30%;
+    position: relative;
+    top: 5px;
+    width: 190px;
     color: green;
 }
 .table{
     
     margin-top: 10%;
-    margin-left: 18%;
+    margin-left: 5%;
   
-    height: 90px;
+    height: 80px;
     position: relative;
-    top: -92px;
+    top: -70px;
 }
-
-.txn1,.txn2,.txn3,.txn4,.txn5{
+.txn1,.txn2{
     height: 10px;
     font-size: xx-small;
     width: 130px;
@@ -34,18 +34,46 @@ H2{
   
 
 }
-.txn1:focus{
+.txn1:focus:focus{
     outline: none;
     
     border: 1px solid  rgb(150, 147, 147);
      
 }
-.signIn{
+.txn2:focus{
+    outline: none;
+    
+    border: 1px solid  rgb(150, 147, 147);
+     
+}
+.login{
     background-color: yellow;
     color: black;
     width: 130px;
-    margin-left: 2%;
+    margin-left: 5%;
     border-radius: 8px;
     border: 2px;
     font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+.Forget{
+    position: relative;
+    top: -5px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    
+}
+.Forget a{
+    text-decoration: none;
+}
+.Forget a:hover{
+    text-decoration: underline;
+}
+#txn_forget{
+    color:rgb(150, 147, 147);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-small;
 }
