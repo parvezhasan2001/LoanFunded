@@ -8,45 +8,22 @@
 </head>
 <body>
     <body>
-    
-        <div id="box">
-            <H2 >Login</H2>
-            <table class="table">
-                <tr style="font-size: xx-small;"><td>Email or ID</td><td style="position: relative; right: 20%;color: rgb(150, 147, 147);">Mandatory
-                </td>
-            </tr>
+    <div id="box">
+        <h2>login</h2>
+        <form action="">
+             <Label class="Label1">Name</Label>
             <br>
-                <tr >
-                    <td>
-                        <input placeholder="Your Email" class="txn1">
-                    </td>
-                </tr>
-                <tr style="font-size: xx-small;">
-                    <td>Password</td><td style="position: relative; right: 20%;color: rgb(150, 147, 147);">
-                        Mandatory</td>
-                    </tr>
-                    <br>
-                <tr>
-                     <td>
-                        <input placeholder="Your Password" class="txn2">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button class="Forget" id="txn_forget">
-                            <a href="">Forgot Password?</a>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button class="login">Log in
-
-                        </button>
-                    </td>
-                </tr>
-              
-            </table>
-    
+            <input type="Name"  class="txn1" placeholder="Name">
+            <br>
+            <Label class="Label2">Password</Label> <br>
+            <input type="Password"  class="txn2" autocomplete="current-password" required="" placeholder="Password">
+            <button class="Forget" id="txn_forget">
+                <a href="">Forgot Password?</a>
+            </button>
+            <button class="login">
+                Log in
+            </button>
+        </form>
+    </div>
 </body>
 </html>

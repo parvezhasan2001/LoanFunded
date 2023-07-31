@@ -12,23 +12,27 @@ H2{
     
     margin-left: 30%;
     position: relative;
-    top: 5px;
+    top: 1px;
     width: 190px;
     color: green;
 }
-.table{
+.Label1,.Label2{
     
-    margin-top: 10%;
-    margin-left: 5%;
-  
-    height: 80px;
-    position: relative;
-    top: -70px;
+    margin-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+form{
+    
+   
+   position: relative;
+   top: -20px;
 }
 .txn1,.txn2{
+    margin-left: 2%;
     height: 10px;
     font-size: xx-small;
-    width: 130px;
+    width: 150px;
     border: 1px solid lightgreen;
     border-radius: 2px;
   
@@ -50,16 +54,17 @@ H2{
     background-color: yellow;
     color: black;
     width: 130px;
-    margin-left: 5%;
+    margin-left: 7%;
     border-radius: 8px;
     border: 2px;
     font-weight: bold;
     position: relative;
-    top: -5px;
+    top: -2px;
 }
 .Forget{
+
     position: relative;
-    top: -5px;
+    top: -3px;
     background-color: white;
     border: none;
     cursor: pointer;
