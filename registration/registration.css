@@ -1,0 +1,76 @@
+form{
+
+    margin-top: 5%;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    margin-left: 35%;
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: 1px 3px 8px 8px rgba(0, 0, 0, 0.2);
+
+    
+}
+/* lul */
+
+h1{
+    color: green;
+    border-bottom: 1px solid black;
+}
+
+.row{
+    background-color: transparent;
+    margin-bottom: 4%;
+    width: 60%;
+}
+
+.row label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.722);
+}
+
+#btn{
+    background-color: yellow;
+    font-weight: bold;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#btn:hover{
+    background-color: rgb(222, 222, 24);
+}
+
+
+#confirm_password{
+    display: flex;
+    align-items: center;
+}
+
+.row input{
+    font-size: large;
+    margin-top: 10px;
+    height: 6vh;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.751);
+    border-radius: 7px;
+    border-color: rgba(0, 128, 0, 0.568);
+}
+
+.row input:hover{
+    background-color: aliceblue;
+}
+
+
+#validation{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    height: 1vh;
+    width: 3%;
+    border-radius: 50%;
+}
+
