@@ -1,0 +1,117 @@
+a{
+    text-decoration: none;
+}
+
+#header {
+    border-bottom: 1px solid black;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add this line to evenly distribute items horizontally */
+}
+
+#header_logo{
+    display: flex;
+    align-items: center;
+}
+
+#header_btn_container ul {
+    margin-right: 20px;
+    list-style: none; /* Remove the default bullet points for the list items */
+    display: flex; /* Use flexbox to arrange the list items */
+}
+
+#header_btn_container li {
+    margin-left: 10px;
+}
+
+#header_btn_container button {
+    background-image: url("profile-removebg-preview.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    height: 10vh;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    box-shadow: rgba(73, 197, 88, 0.448) 0px 3px 8px;
+
+}
+
+#header_btn_container button a{
+    text-decoration: none;
+    color: white;
+}
+
+#header_btn_container button:hover{
+    cursor: pointer;
+}
+
+nav{
+    height: 7vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+nav ul li{
+
+    color: white;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+nav ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+#body{
+    height: 100vh;
+    background-color:aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: aqua;
+}
